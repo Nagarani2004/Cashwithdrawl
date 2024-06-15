@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.cash-withdrawl {
+  display: flex;
+  justify-content: ceneter;
+  align-items: center;
+}
+.inner-contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #150b3e;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+.user-container {
+  display: flex;
+  flex-direction: row;
+}
+.iniital-contianer {
+  display: felx;
+  align-items: center;
+}
+.initial {
+  border-radius: 24px;
+  background-color: #c7d2fe;
+  /* border-width: 10px; */
+  margin-right: 20px;
+  width: 50px;
+  height: 48px;
+  /* width:48px; */
+  text-align: center;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+}
+.message {
+  font-size: 15px;
+}
+.balance {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.denominations-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
